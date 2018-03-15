@@ -87,5 +87,35 @@ section#personalImage {
 	margin-top: 7%;
 }
 
+.gallery {
+	background-color: #1c2127;
 
+}
 
+.wrapper.flex-container {
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.project {
+	height: 50vh;
+	width: 100%;
+}
+
+#doritos {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/doritos.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#flirtual {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/flirtual.png');
+}
+
+#amazon {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/amazon.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
