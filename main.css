@@ -88,7 +88,7 @@ section#personalImage {
 }
 
 .gallery {
-	background-color: #1c2127;
+	/*background-color: #1c2127;*/
 
 }
 
@@ -102,15 +102,55 @@ section#personalImage {
 	width: 100%;
 }
 
-#doritos {
-	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/doritos.png');
+#accolade {
+	background: url('../assets/accolade.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#benefit {
+	background: url('../assets/benefit.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#brawny {
+	background: url('../assets/brawny.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #flirtual {
-	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/flirtual.png');
+	background: url('../assets/flirtual.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#mystic {
+	background: url('../assets/mysticbaitball.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#taylormade {
+	background: url('../assets/taylormade.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+#doritos {
+	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/doritos.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #amazon {
