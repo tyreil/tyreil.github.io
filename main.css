@@ -1,6 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	overflow: scroll;
 	font-family: 'Work Sans', sans-serif;
+	
 }
 
 .wrapper {
@@ -31,7 +36,6 @@ section#personalImage {
 
 #bio {
 	color: #fff; 
-	width: 90%;
 	padding: 2%;
 	line-height: 1.25;
 }
@@ -63,5 +67,25 @@ section#personalImage {
 .button:hover {
 	background-color: #DC9A0B;
 }
+
+.card {
+	border: 1px solid #EAEAEA;
+	height: 50vh;
+	width: 100%;
+}
+
+.card-active {
+	border-top: 8px solid #F9C226;
+}
+
+.card h4 {
+	font-size: 3em;
+	margin: 4% 0;
+}
+
+.card .wrapper .button {
+	margin-top: 7%;
+}
+
 
 
