@@ -1,5 +1,3 @@
-/* Hey. I see you seeing me. */
-
 * {
 	box-sizing: border-box;
 }
@@ -46,6 +44,10 @@ section#personalImage {
 	font-size: 1.5em;
 }
 
+.text-light {
+	color: #fff;
+}
+
 #bio p {
 	margin-bottom: 6%;
 	line-height: 1.75;
@@ -90,7 +92,7 @@ section#personalImage {
 }
 
 .gallery {
-	/*background-color: #1c2127;*/
+	background-color: #1c2127;
 
 }
 
@@ -102,45 +104,46 @@ section#personalImage {
 .project {
 	height: 50vh;
 	width: 100%;
+	margin-top: 2%;
 }
 
 #accolade {
-	background: url('assets/accolade.png');
+	background: url('../assets/accolade.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #benefit {
-	background: url('assets/benefit.jpg');
+	background: url('../assets/benefit.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #brawny {
-	background: url('assets/brawny.jpg');
+	background: url('../assets/brawny.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #flirtual {
-	background: url('assets/flirtual.jpg');
+	background: url('../assets/flirtual.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #mystic {
-	background: url('assets/mysticbaitball.jpg');
+	background: url('../assets/mysticbaitball.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #taylormade {
-	background: url('assets/taylormade.png');
+	background: url('../assets/taylormade.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -149,14 +152,14 @@ section#personalImage {
 
 
 #doritos {
-	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/doritos.png');
+	background: url('assets/doritos.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #amazon {
-	background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35534/amazon.png');
+	background: url('assets/amazon.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
