@@ -103,42 +103,42 @@ section#personalImage {
 }
 
 #accolade {
-	background: url('../assets/accolade.png');
+	background: url('assets/accolade.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #benefit {
-	background: url('../assets/benefit.png');
+	background: url('assets/benefit.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #brawny {
-	background: url('../assets/brawny.png');
+	background: url('assets/brawny.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #flirtual {
-	background: url('../assets/flirtual.png');
+	background: url('assets/flirtual.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #mystic {
-	background: url('../assets/mysticbaitball.png');
+	background: url('assets/mysticbaitball.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #taylormade {
-	background: url('../assets/taylormade.png');
+	background: url('assets/taylormade.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
