@@ -108,35 +108,35 @@ section#personalImage {
 }
 
 #accolade {
-	background: url('../assets/accolade.png');
+	background: url('assets/accolade.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #benefit {
-	background: url('../assets/benefit.png');
+	background: url('assets/benefit.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #brawny {
-	background: url('../assets/brawny.png');
+	background: url('assets/brawny.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #flirtual {
-	background: url('../assets/flirtual.png');
+	background: url('assets/flirtual.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #mystic {
-	background: url('../assets/mysticbaitball.png');
+	background: url('../assets/mysticbaitball.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
