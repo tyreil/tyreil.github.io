@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 50vh 50vh;
+	grid-gap: 2vh;
+}
+
+main {
+	/*Grid position */ 
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	background: #001123;
+
+	
+	/*Sub Grid */ 
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+}
+
+#bio {
+	grid-column-start: 2;
+	grid-column-end: 8;
+	grid-row-start: 6;
+}
+
+h1, h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+	background: orange;
+	color: white;
+	display: inline-block;
+	padding:0% 2%;	
+}
+
+h2 {
+	background: #001123;
+	color: #fff;
+}
+
+
+#bio p {
+	font-size: 1.25em;
+	color: orange;
+}
+
+p {
+	margin-top: 2%;
+}
+
+section {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-row: repeat(12, 1fr);
+}
+
+.content {
+	grid-column-start: 2;
+	grid-column-end: 10;
+	grid-row-start: 6;
+	grid-row-end; 10;
+}
+
+
+#teacher {
+	background: #ce2a19;
+}
+
+#designer {
+	background: orange;
+}
+
+@media (max-width: 820px) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	
+	main {
+		height: 50vh;
+	}
+	
+	section {
+		height: 30vh;
+	}
+}
